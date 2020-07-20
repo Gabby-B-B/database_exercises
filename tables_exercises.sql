@@ -1,6 +1,13 @@
 USE employees; 
 SELECT database ();
-SHOW TABLES; #Tables in this database are: current_dept_emp, departments, dept_emp, dept_emp_latest_date, dept_manager, employees, employees_with_departments, salaries, and titles
+SHOW TABLES;
+DESCRIBE departments;
+DESCRIBE dept_emp;
+DESCRIBE dept_manager;
+DESCRIBE employees_with_departments;
+DESCRIBE salaries;
+DESCRIBE titles;
+ #Tables in this database are: current_dept_emp, departments, dept_emp, dept_emp_latest_date, dept_manager, employees, employees_with_departments, salaries, and titles
 #Which table(s) do you think contain a numeric type column? current_dept_emp, dept_emp, dept_manager, employees, employees_with_departments, salaries, and titles
 #Which table(s) do you think contain a string type column? current_dept_emp, departments, dept_emp, dept_manager, employee, employees_with_departments, and titles
 #Which table(s) do you think contain a date type column? dept_emp, dept_manager, dept_emp_latest_date, salaries, and titles
